@@ -415,3 +415,9 @@ header .contact-li:hover {
   font-size: 1.4rem;
   margin: 0;
 }
+
+.ikkyu-section {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-style: italic;
