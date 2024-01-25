@@ -219,6 +219,14 @@ header .contact-li:hover {
   margin: 0;
 }
 
+.whyi'mdifferent-section {
+  display: flex;
+  flex-direction: column;
+  background-color: ##fffff4;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .process-section {
   display: flex;
   flex-direction: column;
