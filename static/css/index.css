@@ -222,9 +222,9 @@ header .contact-li:hover {
 .whyimdifferent-section {
   display: flex;
   flex-direction: column;
-  background-color: ##fffff4;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: #fffff4;
 }
 
 .process-section {
