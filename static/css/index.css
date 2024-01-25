@@ -373,7 +373,11 @@ header .contact-li:hover {
 }
 
 .testimonial-text {
-  text-align: center;
+  text-align: left;
+}
+
+.testimonial-text2 {
+  text-align: right;
 }
 
 .testimonial-section img:last-child {
