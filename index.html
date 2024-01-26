@@ -254,17 +254,22 @@
         </div>
         
     </section>
-    <section class="contact-section section-padding id='aboutsection'">
+    <section class="contact-section section-padding id='contactme'">
         <h1 class="section-title">contact me! </h1>
-        <div class="section-page">
-            <div class="contact-text">
-                Email: <a href="email:megansemail@gmail.com">meganpwriteswithyou@gmail.com</a><br>
-                Phone: <a href="tel:0000000000">(111) 111 1111</a>
 
-            </div>
-
-
-        </div>
+action="https://formspree.io/f/mjvngede" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+       
     </section>
 
     <section class="ikkyu-section section-padding">
